@@ -5,3 +5,11 @@ print("Coloque nome da cidade que você deseja informaçõese aperte enter! Vamo
  
 nome_da_cidade = input("Coloque o nome da cidade : ")
 print("\n\n")
+
+# Funcao para previsão do tempo
+def Gen_report(C):
+
+    url = 'https://wttr.in/{}'.format(C)
+
+
+
