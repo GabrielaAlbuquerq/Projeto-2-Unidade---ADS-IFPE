@@ -1,0 +1,7 @@
+import requests
+ 
+print("\t\Bem-Vinde a previsão do Tempo e a Tábua de Marés!\n\n")
+print("Coloque nome da cidade que você deseja informaçõese aperte enter! Vamos lá!\n\n")
+ 
+nome_da_cidade = input("Coloque o nome da cidade : ")
+print("\n\n")
